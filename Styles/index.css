@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.container{
+    padding:0px 85px;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.top-header{
+    display:flex;
+    justify-content:space-between;
+    background-color: #242424;
+    padding: 13px;
+}
+
+
+
+.contact-email span{
+    margin: 0px 20px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+.contact-email i{
+    color: #CB1616;
+    margin-right: 10px;
+}
+
+
+.social-icons a{
+margin-right:15px;
+color: rgba(255, 255, 255, 0.655);
+}
+
+
+.social-icons a:hover{
+    color:#CB1616;
+    cursor:pointer;
+}
+/* sub-header */
+.sub-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2F2F2F;
+    padding: 23px;
+}
+
+.sub-header a{
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.sub-header ul{
+    display: flex;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.sub-header ul li{
+    margin: 0px 25px;
+    color: #ffffff;
+    padding: 20px 10px;
+   
+}
+.sub-header li:hover{
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #CB1616;
+    background-color: #CB1616;
+}
+.bg-image{
+    /* max-height: 60vh; */
+}
+.bg-image img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+
+}
+.hero-section{
+    position: relative;
+
+}
+
+
+.hero-text{
+    position: absolute;
+    top: 40%;
+    left:3%;
+
+
+}
+
+.hero-text h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:white;
+    font-family: "Poppins", sans-serif;
+}
+.hero-text p{
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    color: white;
+}
+.hero-text button{
+    font-weight: 400;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 30px 0 0 0;
+    background: none;
+    color:#fff;
+    border: 3px solid white;
+}
+.hero-text button:hover{
+    background-color: #CB1616;
+    color: #fff;
+    border: 3px solid #CB1616;
+    cursor: pointer;
+}
+.About-section{
+    text-align: center;
+    margin:30px 0px ;
+    
+}
+.About-section h1{
+    font-size: 32px;
+    font-weight: 700
+}
+
+.about-details{
+    display: flex;
+    justify-content: space-between;
+}
+.about-details-text h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about-details-text p{
+    font-style: italic !important;
+    margin-bottom: 16px;
+}
+.tick-icon{
+    color: #CB1616;
+    font-size: 20px;
+}
+.detail-items{
+    margin: 10px 0px;
+}
+
+.read-btn{
+    background-color: #CB1616;
+    border: none;
+    padding: 12px 16px;
+    color: #fff;
+}
+.about-section-cards{
+    margin: 40px 0px;
+}
+.cards{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+}
+.cards .card{
+    border: 1px solid #c2c2c2;
+    padding: 40px;
+    width: 380px;
+}
+.card span{
+    color: #CB1616;
+    font-size: 30px;
+}
+.card h2{
+    font-size: 30px;
+    font-weight: 400 !important;
+    font-family: "Raleway", sans-serif;
+}
+
+.clients{
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 20px 85px;
+}
+
+.clients img{
+    width: 100px;
+    margin: 0px 20px;
+}
+
+.heading-para{
+    text-align: center;
+    margin:30px 0px ;
+}
+
+.Service-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.service-card {
+    border: 1px solid #191919;
+    padding: 80px 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.service-card span {
+    background-color: #CB1616;
+    font-size: 40px;
+    color: #fff;
+}
+
+.service-card h3 {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    color: #191919;
+    font-family: "Raleway", sans-serif;
+    height: 20%;
+
+}
+
+.Service-cards  :hover {
+    background-color: #CB1616;
+    cursor: pointer;
+    color: #ffffff;
+}
